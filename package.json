@@ -1,6 +1,6 @@
 {
   "name": "@brakbricks/nest-rebrickable-api",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "A simple NestJS module wrapping @brakbricks/rebrickable-api",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -27,19 +27,18 @@
   "author": "Brakbricks",
   "license": "MIT",
   "devDependencies": {
-    "@eslint/js": "^9.9.0",
-    "@nestjs/common": "^10.4.1",
-    "@types/eslint__js": "^8.42.3",
-    "@types/jest": "^29.5.12",
-    "eslint": "^9.9.0",
+    "@eslint/js": "^9.21.0",
+    "@nestjs/common": "^11.0.11",
+    "@types/jest": "^29.5.14",
+    "eslint": "^9.21.0",
     "jest": "^29.7.0",
-    "ts-jest": "^29.2.4",
-    "typedoc": "^0.26.5",
-    "typescript": "^5.5.4",
-    "typescript-eslint": "^8.1.0"
+    "ts-jest": "^29.2.6",
+    "typedoc": "^0.27.9",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.25.0"
   },
   "dependencies": {
-    "@brakbricks/rebrickable-api": "^0.1.0"
+    "@brakbricks/rebrickable-api": "^0.5.0"
   },
   "peerDependencies": {
     "@nestjs/common": "^10.4.1"
